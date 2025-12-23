@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tayná Alves | Engenharia Civil</title>
+  <meta name="description" content="Tayná Alves – Engenheira Civil. Projetos, obras e consultoria com excelência e responsabilidade técnica." />
+
+  <style>
+    :root {
+      /* Paleta extraída da logo */
+      --dark: #1e1f24;
+      --dark-2: #2a2b31;
+      --gold: #c9a24d;
+      --gold-light: #e6c36a;
+      --white: #ffffff;
+      --gray: #b5b5b5;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    body {
+  background:
+    linear-gradient(
+      rgba(30, 31, 36, 0.85),
+      rgba(30, 31, 36, 0.85)
+    ),
+    url("https://i.postimg.cc/NFXJYN0K/Logo-Tayna-Alves-Engenheira-Civil.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: var(--white);
+}
+
+    
+
+    /* HEADER */
+    header {
+      background: #ffffff;
+      padding: 14px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 48px;
+    }
+
+    nav a {
+      color: #111;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    /* HERO */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      padding: 80px 60px;
+    }
+
+    .hero img {
+      max-width: 420px;
+    }
+
+    .hero-text {
+      border: 1px solid rgba(201,162,77,0.4);
+      padding: 40px;
+      border-radius: 14px;
+    }
+
+    .hero-text h1 {
+      color: var(--gold);
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      color: var(--gray);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    /* BOTÕES */
+    .actions {
+      margin-top: 30px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .btn {
+      padding: 14px 26px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: #1e1f24;
+    }
+
+    .btn-instagram {
+      border: 2px solid var(--gold);
+      color: var(--gold);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    /* FOOTER */
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 13px;
+      color: var(--gray);
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .hero img {
+        margin: 0 auto;
+      }
+
+      .actions {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/NFXJYN0K/Logo-Tayna-Alves-Engenheira-Civil.jpg" alt="Logo Tayná Alves" />
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Serviços</a>
+    <a href="#">Portfólio</a>
+    <a href="#">Contato</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <img src="https://i.postimg.cc/nzdWkdRh/Tayna-Alves-Engenheira-Civil-sem-fundo.png" alt="Foto da Engenheira Tayná Alves" />
+  </div>
+
+  <div class="hero-text">
+    <h1>Excelência em cada etapa do projeto</h1>
+    <p>
+      Atuamos com foco em qualidade, segurança e eficiência técnica em todas as fases da obra.
+      Do planejamento à execução, entregamos soluções inteligentes, funcionais e alinhadas às
+      necessidades de cada cliente.
+    </p>
+
+    <p style="margin-top:15px">CNPJ: 63.226.050/0001-01</p>
+
+    <div class="actions">
+      <a href="https://wa.me/qr/SK7Z5E7CFPJVE1" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+      <a href="https://www.instagram.com/taynaalvs_?igsh=MWs2dzZ2YTRoZm5tdg==" target="_blank" class="btn btn-instagram">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 • Tayná Alves – Engenharia Civil
+</footer>
+
+</body>
+</html>
